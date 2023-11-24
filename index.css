@@ -12,7 +12,6 @@ div {
 	top: 0px;
 	right: 0px;
 	bottom: 0px;
-	background-image: url('/SenponTorii.jpg');
 	background-size: cover;
 	background-position: 50%;
 	width: 100%;
@@ -24,6 +23,14 @@ div {
 #bg:hover {
 	transition: filter 0.5s;
 	filter: brightness(90%);
+}
+
+.bg-en {
+	background-image: url("https://turx.asia/cs-building.jpg");
+}
+
+.bg-ja {
+	background-image: url("https://turx.tokyo/SenponTorii.jpg");
 }
 
 #content {
@@ -87,6 +94,19 @@ body.loaded #buttons {
 
 #btn-resume:hover, #btn-resume-portrait:hover {
 	color: darkorange;
+}
+
+#lang-notice {
+	visibility: hidden;
+	opacity: 0;
+	height: 0px;
+	transition: opacity 0.3s;
+	transition-delay: 1s;
+	padding-top: 0.5em;
+}
+
+#footer a {
+	text-decoration: none;
 }
 
 .portrait-only {
