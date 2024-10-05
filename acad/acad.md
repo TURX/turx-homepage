@@ -53,13 +53,25 @@ I am fortunate to be advised by Prof. [Forrest Sheng Bao](https://forrestbao.git
 Forrest Bao\*, **Ruixuan Tu**\*, Ge Luo, Yinfei Yang, Hebi Li, Minghui Qiu, Youbiao He, and Cen Chen
 *Findings of the Association for Computational Linguistics: EMNLP 2023*
 (Presented the paper and the poster orally at 4th NewSumm Workshop in person as co-first-author)
-[[ACL Anthology](https://aclanthology.org/2023.findings-emnlp.87/)] [[PDF](https://aclanthology.org/2023.findings-emnlp.87.pdf)]
+<button class="btn btn-outline-primary btn-sm" type="button" data-bs-toggle="collapse" data-bs-target="#docasref-abstract" aria-expanded="false" aria-controls="docasref-abstract">Abstract</button> [[ACL Anthology](https://aclanthology.org/2023.findings-emnlp.87/)] [[PDF](https://aclanthology.org/2023.findings-emnlp.87.pdf)]
 [Video](https://aclanthology.org/2023.findings-emnlp.87.mp4)
+
+  <div class="collapse" id="docasref-abstract">
+
+  &emsp; Automated summary quality assessment falls into two categories: reference-based and reference-free. Reference-based metrics, historically deemed more accurate due to the additional information provided by human-written references, are limited by their reliance on human input. In this paper, we hypothesize that the comparison methodologies used by some reference-based metrics to evaluate a system summary against its corresponding reference can be effectively adapted to assess it against its source document, thereby transforming these metrics into reference-free ones. Experimental results support this hypothesis. After being repurposed reference-freely, the zero-shot BERTScore using the pretrained DeBERTa-large-MNLI model of <0.5B parameters consistently outperforms its original reference-based version across various aspects on the SummEval and Newsroom datasets. It also excels in comparison to most existing reference-free metrics and closely competes with zero-shot summary evaluators based on GPT-3.5.
+
+  </div>
 
 2. **A review in the core technologies of 5G: device-to-device communication, multi-access edge computing and network function virtualization**
 **Ruixuan Tu**, Ruxun Xiang, Yang Xu, Yihan Mei
 *International Journal of Communications, Network and System Sciences, 2019*
-[[SCIRP](https://www.scirp.org/journal/paperinformation?paperid=95497)] [[PDF](https://www.scirp.org/pdf/IJCNS_2019092914040589.pdf)]
+<button class="btn btn-outline-primary btn-sm" type="button" data-bs-toggle="collapse" data-bs-target="#5g-abstract" aria-expanded="false" aria-controls="5g-abstract">Abstract</button> [[SCIRP](https://www.scirp.org/journal/paperinformation?paperid=95497)] [[PDF](https://www.scirp.org/pdf/IJCNS_2019092914040589.pdf)]
+
+  <div class="collapse" id="5g-abstract">
+
+  &emsp; 5G is a new generation of mobile networking that aims to achieve unparalleled speed and performance. To accomplish this, three technologies, Device-to-Device communication (D2D), multi-access edge computing (MEC) and network function virtualization (NFV) with ClickOS, have been a significant part of 5G, and this paper mainly discusses them. D2D enables direct communication between devices without the relay of base station. In 5G, a two-tier cellular network composed of traditional cellular network system and D2D is an efficient method for realizing high-speed communication. MEC unloads work from end devices and clouds platforms to widespread nodes, and connects the nodes together with outside devices and third-party providers, in order to diminish the overloading effect on any device caused by enormous applications and improve users’ quality of experience (QoE). There is also a NFV method in order to fulfill the 5G requirements. In this part, an optimized virtual machine for middle-boxes named ClickOS is introduced, and it is evaluated in several aspects. Some middle boxes are being implemented in the ClickOS and proved to have outstanding performances.
+
+  </div>
 
 ### Course Papers
 
@@ -85,6 +97,16 @@ Forrest Bao\*, **Ruixuan Tu**\*, Ge Luo, Yinfei Yang, Hebi Li, Minghui Qiu, Youb
 
   </div>
 
+3. **Optimizing Bike-Sharing Systems: A Machine Learning Approach to Predict Station Imbalances**
+**Ruixuan Tu**, Larissa Xia, Steven Haworth, Jackson Wegner
+*1st Most Creative or Interesting Project and 2nd Best Visualizations for STAT 451 (Machine Learning) @ UW--Madison, Summer 2024*
+<button class="btn btn-outline-primary btn-sm" type="button" data-bs-toggle="collapse" data-bs-target="#divvy-summary" aria-expanded="false" aria-controls="divvy-summary">Summary</button> [[PDF](https://direct.turx.asia/stat451_paper.pdf)] [[Slide](https://direct.turx.asia/stat451_slide.pdf)]
+
+  <div class="collapse" id="divvy-summary">
+
+  &emsp; This study analyzes Divvy Bike Station, Trip Data, and American Community Survey Data to predict bike station flow imbalances (overflow/underflow). The key questions are: How can demographic data and machine learning predict bike availability? Is the status of existing stations a reliable indicator for nearby stations? Using Logistic Regression, Decision Tree, SVM for demographic data, and kNN for geographic data, with Recursive Feature Elimination and Grid Search with Cross-Validation, SVM was the most effective. The status of existing Divvy stations reliably predicts the status of nearby stations.
+
+  </div>
 
 ## Work Experience
 
