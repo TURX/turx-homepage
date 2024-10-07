@@ -34,13 +34,14 @@ ruixuan@cs.wisc.edu
 
 My name is Ruixuan Tu (zh_CN: 涂 睿轩, ja_JP: トゥ・ルイシュェン). I am a fourth year undergraduate majoring in Computer Sciences (Honors), Mathematics (Honors), Data Science, Statistics, and Japanese at the [University of Wisconsin--Madison](https://www.wisc.edu) (UW--Madison). I expect to graduate in May 2025 and am seeking Ph.D. opportunities in natural language processing (NLP) and large language models (LLMs).
 
-I am fortunate to be advised by Prof. [Forrest Sheng Bao](https://forrestbao.github.io/) @ Iowa State CS and (ML Head @) Vectara Inc, Prof. [Ramya Korlakai Vineyak](https://ramyakv.github.io/) @ UW--Madison ECE & CS & Stat, and Prof. [Junjie Hu](https://junjiehu.github.io/) @ UW--Madison BMI & CS. I have previously worked with Prof. [Jerry Zhu](https://pages.cs.wisc.edu/~jerryzhu/) @ UW--Madison CS.
+I am fortunate to be advised by and work with Prof. [Forrest Sheng Bao](https://forrestbao.github.io/) @ Iowa State CS and (ML Head @) Vectara Inc, Prof. [Ramya Korlakai Vineyak](https://ramyakv.github.io/) @ UW--Madison ECE & CS & Stat, and Prof. [Junjie Hu](https://junjiehu.github.io/) @ UW--Madison BMI & CS. I have previously worked with Prof. [Jerry Zhu](https://pages.cs.wisc.edu/~jerryzhu/) @ UW--Madison CS.
 
 ## Research Interests
 
 **Human-aligned LLMs:** Although LLMs have archived great improvements after 2018 and gained popularity among humans, it does not mean they always perform as good as humans, once we consider issues such as hallucination, bias, and factually incorrectness. I have been working on multiple projects to align LLMs with human expectations and behaviors, including:
 - Evaluation of Summary: [[EMNLP'23](https://aclanthology.org/2023.findings-emnlp.87/)]
 - Generalizability of In-Context Learning for Transformer Models: (WIP) ongoing honors thesis research with Prof. [Ramya Korlakai Vineyak](https://ramyakv.github.io/) and Ph.D. student [Daiwei Chen](https://chendaiwei-99.github.io/).
+- Retrieval-Augmented Generation: (WIP) under review project with Prof. [Forrest Sheng Bao](https://forrestbao.github.io/) and [Renyi Qu](https://sites.google.com/view/renyiqu).
 - LLM Agents for Opinion Dynamics: (WIP) ongoing independent study research with Prof. [Junjie Hu](https://junjiehu.github.io/) and Dr. [Yun-Shiuan (Sean) Chuang](https://yunshiuan.github.io/).
 
 **Multilingual NLP and Computational Linguistics**: With Japanese as one of my majors, I connects my NLP knowledge with my Japanese linguistics and classical Japanese courses. I have applied multilinguial transfer learning from modern Japanese to classical Japanese in WakaGPT, and applied computational linguistics tools to analyze the morpheme origins in Japanese literature.
@@ -62,8 +63,21 @@ Forrest Bao\*, **Ruixuan Tu**\*, Ge Luo, Yinfei Yang, Hebi Li, Minghui Qiu, Youb
 
   </div>
 
-2. **A review in the core technologies of 5G: device-to-device communication, multi-access edge computing and network function virtualization**
-**Ruixuan Tu**, Ruxun Xiang, Yang Xu, Yihan Mei
+2. **Funix - The laziest way to build GUI apps in Python**
+Forrest Sheng Bao, Mike Qi, **Ruixuan Tu**, Erana Wan
+*Proceedings of the Python in Science Conference 2024*
+<button class="btn btn-outline-primary btn-sm" type="button" data-bs-toggle="collapse" data-bs-target="#funix-abstract" aria-expanded="false" aria-controls="funix-abstract">Abstract</button> [[SciPy Proceedings](https://proceedings.scipy.org/articles/JFYN3740)] [[Project](https://github.com/TexteaInc/funix)]
+
+  <div class="collapse" id="funix-abstract">
+
+  &emsp; The rise of machine learning (ML) and artificial intelligence (AI), especially the generative AI (GenAI), has increased the need for wrapping models or algorithms into GUI apps. For example, a large language model (LLM) can be accessed through a string-to-string GUI app with a textbox as the primary input. Most of existing solutions require developers to manually create widgets and link them to arguments/returns of a function individually. This low-level process is laborious and usually intrusive. Funix automatically selects widgets based on the types of the arguments and returns of a function according to the type-to-widget mapping defined in a theme, e.g., bool to a checkbox. Consequently, an existing Python function can be turned into a GUI app without any code changes. As a transcompiler, Funix allows type-to-widget mappings to be defined between any Python type and any React component and its props, liberating Python developers to the frontend world without needing to know JavaScript/TypeScript. Funix further leverages features in Python or its ecosystem for building apps in a more Pythonic, intuitive, and effortless manner. With Funix, a developer can **make it (a functional app) before they (competitors) fake it (in Figma or on a napkin)**.
+
+  **Keywords**: type hints, docstrings, transcompiler, frontend development
+
+  </div>
+
+3. **A review in the core technologies of 5G: device-to-device communication, multi-access edge computing and network function virtualization**
+**Ruixuan Tu**\*, Ruxun Xiang\*, Yang Xu, Yihan Mei
 *International Journal of Communications, Network and System Sciences, 2019*
 <button class="btn btn-outline-primary btn-sm" type="button" data-bs-toggle="collapse" data-bs-target="#5g-abstract" aria-expanded="false" aria-controls="5g-abstract">Abstract</button> [[SCIRP](https://www.scirp.org/journal/paperinformation?paperid=95497)] [[PDF](https://www.scirp.org/pdf/IJCNS_2019092914040589.pdf)]
 
@@ -78,7 +92,7 @@ Forrest Bao\*, **Ruixuan Tu**\*, Ge Luo, Yinfei Yang, Hebi Li, Minghui Qiu, Youb
 1. **WakaGPT: Classical Japanese Poem Generator**
 **Ruixuan Tu**
 *Full mark final paper for STAT 453 (Deep Learning) @ UW--Madison, Spring 2024*
-<button class="btn btn-outline-primary btn-sm" type="button" data-bs-toggle="collapse" data-bs-target="#wakagpt-abstract" aria-expanded="false" aria-controls="wakagpt-abstract">Abstract</button> [[PDF](https://direct.turx.asia/wakagpt.pdf)]
+<button class="btn btn-outline-primary btn-sm" type="button" data-bs-toggle="collapse" data-bs-target="#wakagpt-abstract" aria-expanded="false" aria-controls="wakagpt-abstract">Abstract</button> [[PDF](https://direct.turx.asia/wakagpt.pdf)] [[Slide](https://direct.turx.asia/wakagpt_slide.pdf)]
 
   <div class="collapse" id="wakagpt-abstract">
 
@@ -120,6 +134,15 @@ Software Development Engineer Intern (May 2022 --- September 2022)
 - Peer Mentor (Undergraduate TA) of [COMP SCI 540 (Intro-Artificial Intelligence)](https://pages.cs.wisc.edu/~jphanna/teaching/2023spring_cs540/teaching_team.html): Helping students to learn machine learning, math, game, and search by answering questions during office hours (September 2022 --- May 2024)
   - Received [Golden Bricks Award (2023)](https://www.cs.wisc.edu/2023-cs-department-awards-and-thank-yous/#GOLDEN%20BRICK%20AWARDS) for excellent service to CS Department
 - Tutor of Calculus @ University Housing: providing individual and group tutoring to residents taking math courses including multivariable calculus, linear algebra, and intro analysis (September 2022 --- Present)
+
+## Projects
+
+**[KDE Connect](https://kdeconnect.kde.org/)** ([Apple Continuity](https://www.apple.com/macos/continuity/)-like Experience) (November 2018 --- Present)
+- Data: 284K normal App Store downloads, 10K active testers, and 1M impressions as of April 2024 App Store
+- Lead Developer of [macOS version](https://github.com/TURX/kdeconnect-mac) (new UI, device list, secure connection, plugin ports; [GSoC'22 proposal](https://direct.turx.asia/gsoc-proposal-220418.pdf))
+- Developer and Reviewer of [iOS version](https://github.com/KDE/kdeconnect-ios) (About view, background execution with location, trusted networks)
+- Maintainer of App Store Connect for release and troubleshooting
+- Contribution to Android and Linux versions (new conversation in Android SMS)
 
 ## Awards
 

@@ -43,12 +43,13 @@
 <div id="content">
 <h2 id="about-me">About Me </h2>
 <p>My name is Ruixuan Tu (zh_CN: 涂 睿轩, ja_JP: トゥ・ルイシュェン). I am a fourth year undergraduate majoring in Computer Sciences (Honors), Mathematics (Honors), Data Science, Statistics, and Japanese at the <a href="https://www.wisc.edu">University of Wisconsin–Madison</a> (UW–Madison). I expect to graduate in May 2025 and am seeking Ph.D. opportunities in natural language processing (NLP) and large language models (LLMs).</p>
-<p>I am fortunate to be advised by Prof. <a href="https://forrestbao.github.io/">Forrest Sheng Bao</a> @ Iowa State CS and (ML Head @) Vectara Inc, Prof. <a href="https://ramyakv.github.io/">Ramya Korlakai Vineyak</a> @ UW–Madison ECE &amp; CS &amp; Stat, and Prof. <a href="https://junjiehu.github.io/">Junjie Hu</a> @ UW–Madison BMI &amp; CS. I have previously worked with Prof. <a href="https://pages.cs.wisc.edu/~jerryzhu/">Jerry Zhu</a> @ UW–Madison CS.</p>
+<p>I am fortunate to be advised by and work with Prof. <a href="https://forrestbao.github.io/">Forrest Sheng Bao</a> @ Iowa State CS and (ML Head @) Vectara Inc, Prof. <a href="https://ramyakv.github.io/">Ramya Korlakai Vineyak</a> @ UW–Madison ECE &amp; CS &amp; Stat, and Prof. <a href="https://junjiehu.github.io/">Junjie Hu</a> @ UW–Madison BMI &amp; CS. I have previously worked with Prof. <a href="https://pages.cs.wisc.edu/~jerryzhu/">Jerry Zhu</a> @ UW–Madison CS.</p>
 <h2 id="research-interests">Research Interests </h2>
 <p><strong>Human-aligned LLMs:</strong> Although LLMs have archived great improvements after 2018 and gained popularity among humans, it does not mean they always perform as good as humans, once we consider issues such as hallucination, bias, and factually incorrectness. I have been working on multiple projects to align LLMs with human expectations and behaviors, including:</p>
 <ul>
 <li>Evaluation of Summary: [<a href="https://aclanthology.org/2023.findings-emnlp.87/">EMNLP’23</a>]</li>
 <li>Generalizability of In-Context Learning for Transformer Models: (WIP) ongoing honors thesis research with Prof. <a href="https://ramyakv.github.io/">Ramya Korlakai Vineyak</a> and Ph.D. student <a href="https://chendaiwei-99.github.io/">Daiwei Chen</a>.</li>
+<li>Retrieval-Augmented Generation: (WIP) under review project with Prof. <a href="https://forrestbao.github.io/">Forrest Sheng Bao</a> and <a href="https://sites.google.com/view/renyiqu">Renyi Qu</a>.</li>
 <li>LLM Agents for Opinion Dynamics: (WIP) ongoing independent study research with Prof. <a href="https://junjiehu.github.io/">Junjie Hu</a> and Dr. <a href="https://yunshiuan.github.io/">Yun-Shiuan (Sean) Chuang</a>.</li>
 </ul>
 <p><strong>Multilingual NLP and Computational Linguistics</strong>: With Japanese as one of my majors, I connects my NLP knowledge with my Japanese linguistics and classical Japanese courses. I have applied multilinguial transfer learning from modern Japanese to classical Japanese in WakaGPT, and applied computational linguistics tools to analyze the morpheme origins in Japanese literature.</p>
@@ -70,8 +71,18 @@ Here is a description of the content: Video
 <p>  Automated summary quality assessment falls into two categories: reference-based and reference-free. Reference-based metrics, historically deemed more accurate due to the additional information provided by human-written references, are limited by their reliance on human input. In this paper, we hypothesize that the comparison methodologies used by some reference-based metrics to evaluate a system summary against its corresponding reference can be effectively adapted to assess it against its source document, thereby transforming these metrics into reference-free ones. Experimental results support this hypothesis. After being repurposed reference-freely, the zero-shot BERTScore using the pretrained DeBERTa-large-MNLI model of &lt;0.5B parameters consistently outperforms its original reference-based version across various aspects on the SummEval and Newsroom datasets. It also excels in comparison to most existing reference-free metrics and closely competes with zero-shot summary evaluators based on GPT-3.5.</p>
   </div>
 <ol start="2">
+<li><strong>Funix - The laziest way to build GUI apps in Python</strong><br>
+Forrest Sheng Bao, Mike Qi, <strong>Ruixuan Tu</strong>, Erana Wan<br>
+<em>Proceedings of the Python in Science Conference 2024</em><br>
+<button class="btn btn-outline-primary btn-sm" type="button" data-bs-toggle="collapse" data-bs-target="#funix-abstract" aria-expanded="false" aria-controls="funix-abstract">Abstract</button> [<a href="https://proceedings.scipy.org/articles/JFYN3740">SciPy Proceedings</a>] [<a href="https://github.com/TexteaInc/funix">Project</a>]</li>
+</ol>
+  <div class="collapse" id="funix-abstract">
+<p>  The rise of machine learning (ML) and artificial intelligence (AI), especially the generative AI (GenAI), has increased the need for wrapping models or algorithms into GUI apps. For example, a large language model (LLM) can be accessed through a string-to-string GUI app with a textbox as the primary input. Most of existing solutions require developers to manually create widgets and link them to arguments/returns of a function individually. This low-level process is laborious and usually intrusive. Funix automatically selects widgets based on the types of the arguments and returns of a function according to the type-to-widget mapping defined in a theme, e.g., bool to a checkbox. Consequently, an existing Python function can be turned into a GUI app without any code changes. As a transcompiler, Funix allows type-to-widget mappings to be defined between any Python type and any React component and its props, liberating Python developers to the frontend world without needing to know JavaScript/TypeScript. Funix further leverages features in Python or its ecosystem for building apps in a more Pythonic, intuitive, and effortless manner. With Funix, a developer can <strong>make it (a functional app) before they (competitors) fake it (in Figma or on a napkin)</strong>.</p>
+<p><strong>Keywords</strong>: type hints, docstrings, transcompiler, frontend development</p>
+  </div>
+<ol start="3">
 <li><strong>A review in the core technologies of 5G: device-to-device communication, multi-access edge computing and network function virtualization</strong><br>
-<strong>Ruixuan Tu</strong>, Ruxun Xiang, Yang Xu, Yihan Mei<br>
+<strong>Ruixuan Tu</strong>*, Ruxun Xiang*, Yang Xu, Yihan Mei<br>
 <em>International Journal of Communications, Network and System Sciences, 2019</em><br>
 <button class="btn btn-outline-primary btn-sm" type="button" data-bs-toggle="collapse" data-bs-target="#5g-abstract" aria-expanded="false" aria-controls="5g-abstract">Abstract</button> [<a href="https://www.scirp.org/journal/paperinformation?paperid=95497">SCIRP</a>] [<a href="https://www.scirp.org/pdf/IJCNS_2019092914040589.pdf">PDF</a>]</li>
 </ol>
@@ -83,7 +94,7 @@ Here is a description of the content: Video
 <li><strong>WakaGPT: Classical Japanese Poem Generator</strong><br>
 <strong>Ruixuan Tu</strong><br>
 <em>Full mark final paper for STAT 453 (Deep Learning) @ UW–Madison, Spring 2024</em><br>
-<button class="btn btn-outline-primary btn-sm" type="button" data-bs-toggle="collapse" data-bs-target="#wakagpt-abstract" aria-expanded="false" aria-controls="wakagpt-abstract">Abstract</button> [<a href="https://direct.turx.asia/wakagpt.pdf">PDF</a>]</li>
+<button class="btn btn-outline-primary btn-sm" type="button" data-bs-toggle="collapse" data-bs-target="#wakagpt-abstract" aria-expanded="false" aria-controls="wakagpt-abstract">Abstract</button> [<a href="https://direct.turx.asia/wakagpt.pdf">PDF</a>] [<a href="https://direct.turx.asia/wakagpt_slide.pdf">Slide</a>]</li>
 </ol>
   <div class="collapse" id="wakagpt-abstract">
 <p>  Waka is a traditional Japanese poem that is usually in a certain mora sequence format. However, generating waka is challenging for general-purpose LLMs like GPT-4 due to lack of data in classical Japanese and this kind of poetry, as well as the usual format restrictions. In this paper, we present WakaGPT, a waka composer based on Japanese GPT-2 and the base models it is fine-tuned on. By self-supervised and semi-supervised training, we are able to generate waka poems with correct grammar and format.</p>
@@ -122,6 +133,15 @@ Software Development Engineer Intern (May 2022 — September 2022)</p>
 </ul>
 </li>
 <li>Tutor of Calculus @ University Housing: providing individual and group tutoring to residents taking math courses including multivariable calculus, linear algebra, and intro analysis (September 2022 — Present)</li>
+</ul>
+<h2 id="projects">Projects </h2>
+<p><strong><a href="https://kdeconnect.kde.org/">KDE Connect</a></strong> (<a href="https://www.apple.com/macos/continuity/">Apple Continuity</a>-like Experience) (November 2018 — Present)</p>
+<ul>
+<li>Data: 284K normal App Store downloads, 10K active testers, and 1M impressions as of April 2024 App Store</li>
+<li>Lead Developer of <a href="https://github.com/TURX/kdeconnect-mac">macOS version</a> (new UI, device list, secure connection, plugin ports; <a href="https://direct.turx.asia/gsoc-proposal-220418.pdf">GSoC’22 proposal</a>)</li>
+<li>Developer and Reviewer of <a href="https://github.com/KDE/kdeconnect-ios">iOS version</a> (About view, background execution with location, trusted networks)</li>
+<li>Maintainer of App Store Connect for release and troubleshooting</li>
+<li>Contribution to Android and Linux versions (new conversation in Android SMS)</li>
 </ul>
 <h2 id="awards">Awards </h2>
 <ul>
@@ -182,6 +202,13 @@ Software Development Engineer Intern (May 2022 — September 2022)</p>
             class="md-toc-link"
           >
             <p>Work Experience</p>
+
+          </a></div><div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
+          <a
+            href="#projects"
+            class="md-toc-link"
+          >
+            <p>Projects</p>
 
           </a></div><div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
           <a
