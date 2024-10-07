@@ -22,12 +22,16 @@ $("#btn-email-ja-portrait").click(mail_ja);
 const twitter = () => window.location = "https://twitter.com/_AruEkusu_";
 $("#btn-twitter").click(twitter);
 
-const blog = () => window.location = "https://blog.turx.asia";
-$("#btn-blog").click(blog);
-$("#btn-blog-portrait").click(blog);
+const acad = () => window.location = "https://turx.asia/acad";
+$("#btn-acad").click(acad);
+$("#btn-acad-portrait").click(acad);
 
 const github = () => window.location = "https://github.com/TURX";
 $("#btn-github").click(github);
+
+const blog = () => window.location = "https://blog.turx.asia";
+$("#btn-blog").click(blog);
+$("#btn-blog-portrait").click(blog);
 
 const resume = () => window.location = "https://direct.turx.asia/resume.pdf";
 $("#btn-resume").click(resume);

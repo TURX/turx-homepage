@@ -69,15 +69,15 @@ body.loaded #buttons {
 }
 
 #btn-twitter:hover {
-	color: darkblue;
+	color: #1da1f2;
 }
 
-#btn-blog, #btn-blog-portrait {
-	border-color: cyan;
+#btn-acad, #btn-acad-portrait {
+	border-color: #57c2fa;
 }
 
-#btn-blog:hover, #btn-blog-portrait:hover {
-	color: darkcyan;
+#btn-acad:hover, #btn-acad-portrait:hover {
+	color: #5283ec;
 }
 
 #btn-github {
@@ -85,7 +85,15 @@ body.loaded #buttons {
 }
 
 #btn-github:hover {
-	color: gray;
+	color: #1b1f24;
+}
+
+#btn-blog, #btn-blog-portrait {
+	border-color: deepskyblue;
+}
+
+#btn-blog:hover, #btn-blog-portrait:hover {
+	color: #00749c;
 }
 
 #btn-resume, #btn-resume-portrait {
