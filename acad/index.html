@@ -47,20 +47,21 @@
 <h2 id="research-interests">Research Interests </h2>
 <p><strong>Human-aligned LLMs:</strong> Although LLMs have archived great improvements after 2018 and gained popularity among humans, it does not mean they always perform as good as humans, once we consider issues such as hallucination, bias, and factually incorrectness. I have been working on multiple projects to align LLMs with human expectations and behaviors, including:</p>
 <ul>
-<li>Evaluation of Summary: [<a href="https://aclanthology.org/2023.findings-emnlp.87/">EMNLP’23</a>]</li>
+<li>Reference-free Evaluation of Summary: [<a href="https://aclanthology.org/2023.findings-emnlp.87/">EMNLP’23</a>]</li>
+<li>Hallucination Detection of Summary: [<a href="https://arxiv.org/abs/2410.13210">arXiv preprint</a>]</li>
+<li>Retrieval-Augmented Generation through Semantic Chunking: [<a href="https://arxiv.org/abs/2410.13070">arXiv preprint</a>]</li>
 <li>Generalizability of In-Context Learning for Transformer Models: (WIP) ongoing honors thesis research with Prof. <a href="https://ramyakv.github.io/">Ramya Korlakai Vineyak</a> and Ph.D. student <a href="https://chendaiwei-99.github.io/">Daiwei Chen</a>.</li>
-<li>Retrieval-Augmented Generation: (WIP) under review project with Prof. <a href="https://forrestbao.github.io/">Forrest Sheng Bao</a> and <a href="https://sites.google.com/view/renyiqu">Renyi Qu</a>.</li>
 <li>LLM Agents for Opinion Dynamics: (WIP) ongoing independent study research with Prof. <a href="https://junjiehu.github.io/">Junjie Hu</a> and Dr. <a href="https://yunshiuan.github.io/">Yun-Shiuan (Sean) Chuang</a>.</li>
 </ul>
-<p><strong>Multilingual NLP and Computational Linguistics</strong>: With Japanese as one of my majors, I connects my NLP knowledge with my Japanese linguistics and classical Japanese courses. I have applied multilinguial transfer learning from modern Japanese to classical Japanese in WakaGPT, and applied computational linguistics tools to analyze the morpheme origins in Japanese literature.</p>
+<p><strong>Multilingual NLP and Computational Linguistics (Digital Humanities)</strong>: With Japanese as one of my majors, I connects my NLP knowledge with my Japanese linguistics and classical Japanese courses. I have applied multilinguial transfer learning from modern Japanese to classical Japanese in WakaGPT, and applied computational linguistics tools to analyze the morpheme origins in Japanese literature.</p>
 <h2 id="papers">Papers </h2>
-<h3 id="peer-reviewed-publications">Peer-reviewed Publications </h3>
+<h3 id="peer-reviewed-papers">Peer-reviewed Papers </h3>
 <ol>
 <li><strong>DocAsRef: An Empirical Study on Repurposing Reference-based Summary Quality Metrics as Reference-free Metrics</strong><br>
-Forrest Bao*, <strong>Ruixuan Tu</strong>*, Ge Luo, Yinfei Yang, Hebi Li, Minghui Qiu, Youbiao He, and Cen Chen<br>
+Forrest Sheng Bao*, <strong>Ruixuan Tu</strong>*, Ge Luo, Yinfei Yang, Hebi Li, Minghui Qiu, Youbiao He, and Cen Chen<br>
 <em>Findings of the Association for Computational Linguistics: EMNLP 2023</em><br>
 (Presented the paper and the poster orally at 4th NewSumm Workshop in person as co-first-author)<br>
-<button class="btn btn-outline-primary btn-sm" type="button" data-bs-toggle="collapse" data-bs-target="#docasref-abstract" aria-expanded="false" aria-controls="docasref-abstract">Abstract</button> [<a href="https://aclanthology.org/2023.findings-emnlp.87/">ACL Anthology</a>] [<a href="https://aclanthology.org/2023.findings-emnlp.87.pdf">PDF</a>]<br>
+<button class="btn btn-outline-primary btn-sm" type="button" data-bs-toggle="collapse" data-bs-target="#docasref-abstract" aria-expanded="false" aria-controls="docasref-abstract">Abstract</button> [<a href="https://aclanthology.org/2023.findings-emnlp.87/">ACL Anthology</a>] [<a href="https://aclanthology.org/2023.findings-emnlp.87.pdf">PDF</a>] [<a href="https://direct.turx.asia/docasref_poster.pdf">Poster</a>] [<a href="https://github.com/SigmaWe/DocAsRef">GitHub Repo</a>]<br>
 <video controls="" preload="metadata" width="320" height="240">
 <source type="video/mp4" src="https://aclanthology.org/2023.findings-emnlp.87.mp4">
 Your browser does not support playing HTML5 video. You can <a href="https://aclanthology.org/2023.findings-emnlp.87.mp4" download="">download a copy of the video file</a> instead.
@@ -74,7 +75,7 @@ Here is a description of the content: Video
 <li><strong>Funix - The laziest way to build GUI apps in Python</strong><br>
 Forrest Sheng Bao, Mike Qi, <strong>Ruixuan Tu</strong>, Erana Wan<br>
 <em>Proceedings of the Python in Science Conference 2024</em><br>
-<button class="btn btn-outline-primary btn-sm" type="button" data-bs-toggle="collapse" data-bs-target="#funix-abstract" aria-expanded="false" aria-controls="funix-abstract">Abstract</button> [<a href="https://proceedings.scipy.org/articles/JFYN3740">SciPy Proceedings</a>] [<a href="https://github.com/TexteaInc/funix">Project</a>]</li>
+<button class="btn btn-outline-primary btn-sm" type="button" data-bs-toggle="collapse" data-bs-target="#funix-abstract" aria-expanded="false" aria-controls="funix-abstract">Abstract</button> [<a href="https://proceedings.scipy.org/articles/JFYN3740">SciPy Proceedings</a>] [<a href="https://github.com/TexteaInc/funix">GitHub Repo</a>]</li>
 </ol>
   <div class="collapse" id="funix-abstract">
 <p>  The rise of machine learning (ML) and artificial intelligence (AI), especially the generative AI (GenAI), has increased the need for wrapping models or algorithms into GUI apps. For example, a large language model (LLM) can be accessed through a string-to-string GUI app with a textbox as the primary input. Most of existing solutions require developers to manually create widgets and link them to arguments/returns of a function individually. This low-level process is laborious and usually intrusive. Funix automatically selects widgets based on the types of the arguments and returns of a function according to the type-to-widget mapping defined in a theme, e.g., bool to a checkbox. Consequently, an existing Python function can be turned into a GUI app without any code changes. As a transcompiler, Funix allows type-to-widget mappings to be defined between any Python type and any React component and its props, liberating Python developers to the frontend world without needing to know JavaScript/TypeScript. Funix further leverages features in Python or its ecosystem for building apps in a more Pythonic, intuitive, and effortless manner. With Funix, a developer can <strong>make it (a functional app) before they (competitors) fake it (in Figma or on a napkin)</strong>.</p>
@@ -89,11 +90,30 @@ Forrest Sheng Bao, Mike Qi, <strong>Ruixuan Tu</strong>, Erana Wan<br>
   <div class="collapse" id="5g-abstract">
 <p>  5G is a new generation of mobile networking that aims to achieve unparalleled speed and performance. To accomplish this, three technologies, Device-to-Device communication (D2D), multi-access edge computing (MEC) and network function virtualization (NFV) with ClickOS, have been a significant part of 5G, and this paper mainly discusses them. D2D enables direct communication between devices without the relay of base station. In 5G, a two-tier cellular network composed of traditional cellular network system and D2D is an efficient method for realizing high-speed communication. MEC unloads work from end devices and clouds platforms to widespread nodes, and connects the nodes together with outside devices and third-party providers, in order to diminish the overloading effect on any device caused by enormous applications and improve users’ quality of experience (QoE). There is also a NFV method in order to fulfill the 5G requirements. In this part, an optimized virtual machine for middle-boxes named ClickOS is introduced, and it is evaluated in several aspects. Some middle boxes are being implemented in the ClickOS and proved to have outstanding performances.</p>
   </div>
+<h3 id="preprints">Preprints </h3>
+<ol>
+<li><strong>Is Semantic Chunking Worth the Computational Cost?</strong><br>
+Renyi Qu, <strong>Ruixuan Tu</strong>, Forrest Sheng Bao<br>
+<em>arXiv:2410.13070</em><br>
+<button class="btn btn-outline-primary btn-sm" type="button" data-bs-toggle="collapse" data-bs-target="#rag-abstract" aria-expanded="false" aria-controls="rag-abstract">Abstract</button> [<a href="https://arxiv.org/abs/2410.13070">arXiv</a>] [<a href="https://arxiv.org/pdf/2410.13070">PDF</a>]</li>
+</ol>
+  <div class="collapse" id="rag-abstract">
+<p>  Recent advances in Retrieval-Augmented Generation (RAG) systems have popularized <strong>semantic chunking</strong>, which aims to improve retrieval performance by dividing documents into semantically coherent segments. Despite its growing adoption, the actual benefits over simpler <strong>fixed-size chunking</strong>, where documents are split into consecutive, fixed-size segments, remain unclear. This study systematically evaluates the effectiveness of semantic chunking using three common retrieval-related tasks: document retrieval, evidence retrieval, and retrieval-based answer generation. The results show that the computational costs associated with semantic chunking are not justified by consistent performance gains. These findings challenge the previous assumptions about semantic chunking and highlight the need for more efficient chunking strategies in RAG systems.</p>
+  </div>
+<ol start="2">
+<li><strong>FaithBench: A Diverse Hallucination Benchmark for Summarization by Modern LLMs</strong><br>
+Forrest Sheng Bao, Miaoran Li, Renyi Qu, Ge Luo, Erana Wan, Yujia Tang, Weisi Fan, Manveer Singh Tamber, Suleman Kazi, Vivek Sourabh, Mike Qi, <strong>Ruixuan Tu</strong>, Chenyu Xu, Matthew Gonzales, Ofer Mendelevitch, Amin Ahmad<br>
+<em>arXiv:2410.13210</em><br>
+<button class="btn btn-outline-primary btn-sm" type="button" data-bs-toggle="collapse" data-bs-target="#faithbench-abstract" aria-expanded="false" aria-controls="faithbench-abstract">Abstract</button> [<a href="https://arxiv.org/abs/2410.13210">arXiv</a>] [<a href="https://arxiv.org/pdf/2410.13210">PDF</a>] [<a href="https://github.com/vectara/FaithBench">GitHub Repo</a>]</li>
+</ol>
+  <div class="collapse" id="faithbench-abstract">
+<p>  Summarization is one of the most common tasks performed by large language models (LLMs), especially in applications like Retrieval-Augmented Generation (RAG). However, existing evaluations of hallucinations in LLM-generated summaries, and evaluations of hallucination detection models both suffer from a lack of diversity and recency in the LLM and LLM families considered. This paper introduces FaithBench, a summarization hallucination benchmark comprising challenging hallucinations made by 10 modern LLMs from 8 different families, with ground truth annotations by human experts. ``Challenging’’ here means summaries on which popular, state-of-the-art hallucination detection models, including GPT-4o-as-a-judge, disagreed on. Our results show GPT-4o and GPT-3.5-Turbo produce the least hallucinations. However, even the best hallucination detection models have near 50% accuracies on FaithBench, indicating lots of room for future improvement.</p>
+  </div>
 <h3 id="course-papers">Course Papers </h3>
 <ol>
 <li><strong>WakaGPT: Classical Japanese Poem Generator</strong><br>
 <strong>Ruixuan Tu</strong><br>
-<em>Full mark final paper for STAT 453 (Deep Learning) @ UW–Madison, Spring 2024</em><br>
+<em>Full-mark final paper for STAT 453 (Deep Learning) @ UW–Madison, Spring 2024</em><br>
 <button class="btn btn-outline-primary btn-sm" type="button" data-bs-toggle="collapse" data-bs-target="#wakagpt-abstract" aria-expanded="false" aria-controls="wakagpt-abstract">Abstract</button> [<a href="https://direct.turx.asia/wakagpt.pdf">PDF</a>] [<a href="https://direct.turx.asia/wakagpt_slide.pdf">Slide</a>]</li>
 </ol>
   <div class="collapse" id="wakagpt-abstract">
@@ -137,7 +157,8 @@ Software Development Engineer Intern (May 2022 — September 2022)</p>
 <h2 id="projects">Projects </h2>
 <p><strong><a href="https://kdeconnect.kde.org/">KDE Connect</a></strong> (<a href="https://www.apple.com/macos/continuity/">Apple Continuity</a>-like Experience) (November 2018 — Present)</p>
 <ul>
-<li>Data: 284K normal App Store downloads, 10K active testers, and 1M impressions as of April 2024 App Store</li>
+<li>Download latest stable release: [<a href="https://apps.apple.com/us/app/kde-connect/id1580245991">App Store</a>] [<a href="https://testflight.apple.com/join/vxCluwBF">TestFlight</a>]</li>
+<li>Data: 284K normal App Store downloads, 10K active testers, and 1M impressions (as of April 2024)</li>
 <li>Lead Developer of <a href="https://github.com/TURX/kdeconnect-mac">macOS version</a> (new UI, device list, secure connection, plugin ports; <a href="https://direct.turx.asia/gsoc-proposal-220418.pdf">GSoC’22 proposal</a>)</li>
 <li>Developer and Reviewer of <a href="https://github.com/KDE/kdeconnect-ios">iOS version</a> (About view, background execution with location, trusted networks)</li>
 <li>Maintainer of App Store Connect for release and troubleshooting</li>
@@ -181,10 +202,17 @@ Software Development Engineer Intern (May 2022 — September 2022)</p>
         <div>
           <div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
           <a
-            href="#peer-reviewed-publications"
+            href="#peer-reviewed-papers"
             class="md-toc-link"
           >
-            <p>Peer-reviewed Publications</p>
+            <p>Peer-reviewed Papers</p>
+
+          </a></div><div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
+          <a
+            href="#preprints"
+            class="md-toc-link"
+          >
+            <p>Preprints</p>
 
           </a></div><div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
           <a

@@ -39,22 +39,23 @@ I am fortunate to be advised by and work with Prof. [Forrest Sheng Bao](https://
 ## Research Interests
 
 **Human-aligned LLMs:** Although LLMs have archived great improvements after 2018 and gained popularity among humans, it does not mean they always perform as good as humans, once we consider issues such as hallucination, bias, and factually incorrectness. I have been working on multiple projects to align LLMs with human expectations and behaviors, including:
-- Evaluation of Summary: [[EMNLP'23](https://aclanthology.org/2023.findings-emnlp.87/)]
+- Reference-free Evaluation of Summary: [[EMNLP'23](https://aclanthology.org/2023.findings-emnlp.87/)]
+- Hallucination Detection of Summary: [[arXiv preprint](https://arxiv.org/abs/2410.13210)]
+- Retrieval-Augmented Generation through Semantic Chunking: [[arXiv preprint](https://arxiv.org/abs/2410.13070)]
 - Generalizability of In-Context Learning for Transformer Models: (WIP) ongoing honors thesis research with Prof. [Ramya Korlakai Vineyak](https://ramyakv.github.io/) and Ph.D. student [Daiwei Chen](https://chendaiwei-99.github.io/).
-- Retrieval-Augmented Generation: (WIP) under review project with Prof. [Forrest Sheng Bao](https://forrestbao.github.io/) and [Renyi Qu](https://sites.google.com/view/renyiqu).
 - LLM Agents for Opinion Dynamics: (WIP) ongoing independent study research with Prof. [Junjie Hu](https://junjiehu.github.io/) and Dr. [Yun-Shiuan (Sean) Chuang](https://yunshiuan.github.io/).
 
-**Multilingual NLP and Computational Linguistics**: With Japanese as one of my majors, I connects my NLP knowledge with my Japanese linguistics and classical Japanese courses. I have applied multilinguial transfer learning from modern Japanese to classical Japanese in WakaGPT, and applied computational linguistics tools to analyze the morpheme origins in Japanese literature.
+**Multilingual NLP and Computational Linguistics (Digital Humanities)**: With Japanese as one of my majors, I connects my NLP knowledge with my Japanese linguistics and classical Japanese courses. I have applied multilinguial transfer learning from modern Japanese to classical Japanese in WakaGPT, and applied computational linguistics tools to analyze the morpheme origins in Japanese literature.
 
 ## Papers
 
-### Peer-reviewed Publications
+### Peer-reviewed Papers
 
 1. **DocAsRef: An Empirical Study on Repurposing Reference-based Summary Quality Metrics as Reference-free Metrics**
-Forrest Bao\*, **Ruixuan Tu**\*, Ge Luo, Yinfei Yang, Hebi Li, Minghui Qiu, Youbiao He, and Cen Chen
+Forrest Sheng Bao\*, **Ruixuan Tu**\*, Ge Luo, Yinfei Yang, Hebi Li, Minghui Qiu, Youbiao He, and Cen Chen
 *Findings of the Association for Computational Linguistics: EMNLP 2023*
 (Presented the paper and the poster orally at 4th NewSumm Workshop in person as co-first-author)
-<button class="btn btn-outline-primary btn-sm" type="button" data-bs-toggle="collapse" data-bs-target="#docasref-abstract" aria-expanded="false" aria-controls="docasref-abstract">Abstract</button> [[ACL Anthology](https://aclanthology.org/2023.findings-emnlp.87/)] [[PDF](https://aclanthology.org/2023.findings-emnlp.87.pdf)]
+<button class="btn btn-outline-primary btn-sm" type="button" data-bs-toggle="collapse" data-bs-target="#docasref-abstract" aria-expanded="false" aria-controls="docasref-abstract">Abstract</button> [[ACL Anthology](https://aclanthology.org/2023.findings-emnlp.87/)] [[PDF](https://aclanthology.org/2023.findings-emnlp.87.pdf)] [[Poster](https://direct.turx.asia/docasref_poster.pdf)] [[GitHub Repo](https://github.com/SigmaWe/DocAsRef)]
 [Video](https://aclanthology.org/2023.findings-emnlp.87.mp4)
 
   <div class="collapse" id="docasref-abstract">
@@ -66,7 +67,7 @@ Forrest Bao\*, **Ruixuan Tu**\*, Ge Luo, Yinfei Yang, Hebi Li, Minghui Qiu, Youb
 2. **Funix - The laziest way to build GUI apps in Python**
 Forrest Sheng Bao, Mike Qi, **Ruixuan Tu**, Erana Wan
 *Proceedings of the Python in Science Conference 2024*
-<button class="btn btn-outline-primary btn-sm" type="button" data-bs-toggle="collapse" data-bs-target="#funix-abstract" aria-expanded="false" aria-controls="funix-abstract">Abstract</button> [[SciPy Proceedings](https://proceedings.scipy.org/articles/JFYN3740)] [[Project](https://github.com/TexteaInc/funix)]
+<button class="btn btn-outline-primary btn-sm" type="button" data-bs-toggle="collapse" data-bs-target="#funix-abstract" aria-expanded="false" aria-controls="funix-abstract">Abstract</button> [[SciPy Proceedings](https://proceedings.scipy.org/articles/JFYN3740)] [[GitHub Repo](https://github.com/TexteaInc/funix)]
 
   <div class="collapse" id="funix-abstract">
 
@@ -87,11 +88,35 @@ Forrest Sheng Bao, Mike Qi, **Ruixuan Tu**, Erana Wan
 
   </div>
 
+### Preprints
+
+1. **Is Semantic Chunking Worth the Computational Cost?**
+Renyi Qu, **Ruixuan Tu**, Forrest Sheng Bao
+*arXiv:2410.13070*
+<button class="btn btn-outline-primary btn-sm" type="button" data-bs-toggle="collapse" data-bs-target="#rag-abstract" aria-expanded="false" aria-controls="rag-abstract">Abstract</button> [[arXiv](https://arxiv.org/abs/2410.13070)] [[PDF](https://arxiv.org/pdf/2410.13070)]
+
+  <div class="collapse" id="rag-abstract">
+
+  &emsp; Recent advances in Retrieval-Augmented Generation (RAG) systems have popularized **semantic chunking**, which aims to improve retrieval performance by dividing documents into semantically coherent segments. Despite its growing adoption, the actual benefits over simpler **fixed-size chunking**, where documents are split into consecutive, fixed-size segments, remain unclear. This study systematically evaluates the effectiveness of semantic chunking using three common retrieval-related tasks: document retrieval, evidence retrieval, and retrieval-based answer generation. The results show that the computational costs associated with semantic chunking are not justified by consistent performance gains. These findings challenge the previous assumptions about semantic chunking and highlight the need for more efficient chunking strategies in RAG systems.
+
+  </div>
+
+2. **FaithBench: A Diverse Hallucination Benchmark for Summarization by Modern LLMs**
+Forrest Sheng Bao, Miaoran Li, Renyi Qu, Ge Luo, Erana Wan, Yujia Tang, Weisi Fan, Manveer Singh Tamber, Suleman Kazi, Vivek Sourabh, Mike Qi, **Ruixuan Tu**, Chenyu Xu, Matthew Gonzales, Ofer Mendelevitch, Amin Ahmad
+*arXiv:2410.13210*
+<button class="btn btn-outline-primary btn-sm" type="button" data-bs-toggle="collapse" data-bs-target="#faithbench-abstract" aria-expanded="false" aria-controls="faithbench-abstract">Abstract</button> [[arXiv](https://arxiv.org/abs/2410.13210)] [[PDF](https://arxiv.org/pdf/2410.13210)] [[GitHub Repo](https://github.com/vectara/FaithBench)]
+
+  <div class="collapse" id="faithbench-abstract">
+
+  &emsp; Summarization is one of the most common tasks performed by large language models (LLMs), especially in applications like Retrieval-Augmented Generation (RAG). However, existing evaluations of hallucinations in LLM-generated summaries, and evaluations of hallucination detection models both suffer from a lack of diversity and recency in the LLM and LLM families considered. This paper introduces FaithBench, a summarization hallucination benchmark comprising challenging hallucinations made by 10 modern LLMs from 8 different families, with ground truth annotations by human experts. ``Challenging'' here means summaries on which popular, state-of-the-art hallucination detection models, including GPT-4o-as-a-judge, disagreed on. Our results show GPT-4o and GPT-3.5-Turbo produce the least hallucinations. However, even the best hallucination detection models have near 50\% accuracies on FaithBench, indicating lots of room for future improvement.
+
+  </div>
+
 ### Course Papers
 
 1. **WakaGPT: Classical Japanese Poem Generator**
 **Ruixuan Tu**
-*Full mark final paper for STAT 453 (Deep Learning) @ UW--Madison, Spring 2024*
+*Full-mark final paper for STAT 453 (Deep Learning) @ UW--Madison, Spring 2024*
 <button class="btn btn-outline-primary btn-sm" type="button" data-bs-toggle="collapse" data-bs-target="#wakagpt-abstract" aria-expanded="false" aria-controls="wakagpt-abstract">Abstract</button> [[PDF](https://direct.turx.asia/wakagpt.pdf)] [[Slide](https://direct.turx.asia/wakagpt_slide.pdf)]
 
   <div class="collapse" id="wakagpt-abstract">
@@ -138,7 +163,8 @@ Software Development Engineer Intern (May 2022 --- September 2022)
 ## Projects
 
 **[KDE Connect](https://kdeconnect.kde.org/)** ([Apple Continuity](https://www.apple.com/macos/continuity/)-like Experience) (November 2018 --- Present)
-- Data: 284K normal App Store downloads, 10K active testers, and 1M impressions as of April 2024 App Store
+- Download latest stable release: [[App Store](https://apps.apple.com/us/app/kde-connect/id1580245991)] [[TestFlight](https://testflight.apple.com/join/vxCluwBF)]
+- Data: 284K normal App Store downloads, 10K active testers, and 1M impressions (as of April 2024)
 - Lead Developer of [macOS version](https://github.com/TURX/kdeconnect-mac) (new UI, device list, secure connection, plugin ports; [GSoC'22 proposal](https://direct.turx.asia/gsoc-proposal-220418.pdf))
 - Developer and Reviewer of [iOS version](https://github.com/KDE/kdeconnect-ios) (About view, background execution with location, trusted networks)
 - Maintainer of App Store Connect for release and troubleshooting
