@@ -24,7 +24,7 @@ html:
 University of Wisconsin--Madison
 ruixuan@cs.wisc.edu
 
-[[GitHub](https://github.com/TURX)] [[Google Scholar](https://scholar.google.com/citations?user=V6hzHoQAAAAJ)]
+[[GitHub](https://github.com/TURX)] [[Google Scholar](https://scholar.google.com/citations?user=V6hzHoQAAAAJ)] [[Resume](https://direct.turx.asia/resume.pdf)]
 
 </div>
 
@@ -32,9 +32,9 @@ ruixuan@cs.wisc.edu
 
 ## About Me
 
-My name is Ruixuan Tu (zh_CN: 涂 睿轩, ja_JP: トゥ・ルイシュェン). I am a fourth year undergraduate majoring in Computer Sciences (Honors), Mathematics (Honors), Data Science, Statistics, and Japanese at the [University of Wisconsin--Madison](https://www.wisc.edu) (UW--Madison). I expect to graduate in May 2025 and am seeking Ph.D. opportunities in natural language processing (NLP) and large language models (LLMs).
+My name is Ruixuan Tu (zh_CN: 涂 睿轩, ja_JP: トゥ・ルイシュェン). I am a fourth year undergraduate majoring in Computer Sciences (Honors), Mathematics (Honors), Data Science, Statistics, and Japanese at the [University of Wisconsin--Madison](https://www.wisc.edu) (UW--Madison). I expect to graduate in May 2025 and am **actively seeking for Ph.D. opportunities in natural language processing (NLP) and large language models (LLMs)**.
 
-I am fortunate to be advised by and work with Prof. [Forrest Sheng Bao](https://forrestbao.github.io/) @ Iowa State CS and (ML Head @) Vectara Inc, Prof. [Ramya Korlakai Vineyak](https://ramyakv.github.io/) @ UW--Madison ECE & CS & Stat, and Prof. [Junjie Hu](https://junjiehu.github.io/) @ UW--Madison BMI & CS. I have previously worked with Prof. [Jerry Zhu](https://pages.cs.wisc.edu/~jerryzhu/) @ UW--Madison CS.
+I am fortunate to be advised by and work with Prof. [Forrest Sheng Bao](https://forrestbao.github.io/) @ Iowa State CS and (ML Head @) Vectara Inc, Prof. [Ramya Korlakai Vinayak](https://ramyakv.github.io/) @ UW--Madison ECE & CS & Stat, and Prof. [Junjie Hu](https://junjiehu.github.io/) @ UW--Madison BMI & CS. I have previously worked with Prof. [Jerry Zhu](https://pages.cs.wisc.edu/~jerryzhu/) @ UW--Madison CS.
 
 ## Research Interests
 
@@ -42,10 +42,10 @@ I am fortunate to be advised by and work with Prof. [Forrest Sheng Bao](https://
 - Reference-free Evaluation of Summary: [[EMNLP'23](https://aclanthology.org/2023.findings-emnlp.87/)]
 - Hallucination Detection of Summary: [[arXiv preprint](https://arxiv.org/abs/2410.13210)]
 - Retrieval-Augmented Generation through Semantic Chunking: [[arXiv preprint](https://arxiv.org/abs/2410.13070)]
-- Generalizability of In-Context Learning for Transformer Models: (WIP) ongoing honors thesis research with Prof. [Ramya Korlakai Vineyak](https://ramyakv.github.io/) and Ph.D. student [Daiwei Chen](https://chendaiwei-99.github.io/).
-- LLM Agents for Opinion Dynamics: (WIP) ongoing independent study research with Prof. [Junjie Hu](https://junjiehu.github.io/) and Dr. [Yun-Shiuan (Sean) Chuang](https://yunshiuan.github.io/).
+- Generalizability of In-Context Learning for Transformer Models and Its Applications in Pluralistic Alignment: (WIP) ongoing honors thesis research with Prof. [Ramya Korlakai Vinayak](https://ramyakv.github.io/) and Ph.D. student [Daiwei Chen](https://chendaiwei-99.github.io/).
+- Opinion Dynamics Alignment in LLM Agents: (WIP) ongoing independent study research with Prof. [Junjie Hu](https://junjiehu.github.io/) and Dr. [Yun-Shiuan (Sean) Chuang](https://yunshiuan.github.io/).
 
-**Multilingual NLP and Computational Linguistics (Digital Humanities)**: With Japanese as one of my majors, I connects my NLP knowledge with my Japanese linguistics and classical Japanese courses. I have applied multilinguial transfer learning from modern Japanese to classical Japanese in WakaGPT, and applied computational linguistics tools to analyze the morpheme origins in Japanese literature.
+**Multilingual NLP and Computational Linguistics (Digital Humanities)**: With Japanese as one of my majors, I connects my NLP knowledge with my Japanese linguistics and classical Japanese courses. I have applied multilinguial transfer learning from modern Japanese to classical Japanese in WakaGPT, and applied computational linguistics tools to analyze the morpheme origins in Japanese literature. I am currently using clustering method to analyze the change of [role language](https://en.wikipedia.org/wiki/Yakuwarigo) in Japanese anime from a computational socialinguistics perspective.
 
 ## Papers
 
@@ -67,7 +67,7 @@ Forrest Sheng Bao\*, **Ruixuan Tu**\*, Ge Luo, Yinfei Yang, Hebi Li, Minghui Qiu
 2. **Funix - The laziest way to build GUI apps in Python**
 Forrest Sheng Bao, Mike Qi, **Ruixuan Tu**, Erana Wan
 *Proceedings of the Python in Science Conference 2024*
-<button class="btn btn-outline-primary btn-sm" type="button" data-bs-toggle="collapse" data-bs-target="#funix-abstract" aria-expanded="false" aria-controls="funix-abstract">Abstract</button> [[SciPy Proceedings](https://proceedings.scipy.org/articles/JFYN3740)] [[GitHub Repo](https://github.com/TexteaInc/funix)]
+<button class="btn btn-outline-primary btn-sm" type="button" data-bs-toggle="collapse" data-bs-target="#funix-abstract" aria-expanded="false" aria-controls="funix-abstract">Abstract</button> [[SciPy Proceedings](https://proceedings.scipy.org/articles/JFYN3740)] [[PDF](https://pub.curvenote.com/0192d974-5e0f-7a5b-959a-07c7835a1d2f/public/full_text-63ece1ce5a4ce92019ecb895571b14f7.pdf)] [[GitHub Repo](https://github.com/TexteaInc/funix)]
 
   <div class="collapse" id="funix-abstract">
 
@@ -151,7 +151,7 @@ Forrest Sheng Bao, Miaoran Li, Renyi Qu, Ge Luo, Erana Wan, Yujia Tang, Weisi Fa
 
 **[Textea Inc](https://github.com/TexteaInc)**
 Software Development Engineer Intern (May 2022 --- September 2022)
-- Lead Developer of [Funix](https://funix.io/): NodeJS generator from Python functions to serverless web instances, helping ML researchers deploy their apps [[PyCon US 2024 Poster](https://us.pycon.org/2024/schedule/posters/list/)] [[SciPy Conference 2024](https://github.com/scipy-conference/scipy_proceedings/pull/948)]
+- Lead Developer of [Funix](https://funix.io/): NodeJS generator from Python functions to serverless web instances, helping ML researchers deploy their apps [[PyCon US 2024 Poster](https://us.pycon.org/2024/schedule/posters/list/)] [[SciPy Conference 2024](https://proceedings.scipy.org/articles/JFYN3740)]
 - Lead Developer of Web Backend: APIs for user auth, permission, admin, RPC and HTTP remote call
 - Developer of NLP Backend: classical natural language processing task implementation in Python, API migration
 
