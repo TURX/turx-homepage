@@ -45,7 +45,7 @@ I am fortunate to be advised by and work with Prof. [Forrest Sheng Bao](https://
 - Generalizability of In-Context Learning for Transformer Models and Its Applications in Pluralistic Alignment: (WIP) ongoing honors thesis research with Prof. [Ramya Korlakai Vinayak](https://ramyakv.github.io/) and Ph.D. student [Daiwei Chen](https://chendaiwei-99.github.io/).
 - Opinion Dynamics Alignment in LLM Agents: (WIP) ongoing independent study research with Prof. [Junjie Hu](https://junjiehu.github.io/) and Dr. [Yun-Shiuan (Sean) Chuang](https://yunshiuan.github.io/).
 
-**Multilingual NLP and Computational Linguistics (Digital Humanities)**: With Japanese as one of my majors, I connects my NLP knowledge with my Japanese linguistics and classical Japanese courses. I have applied multilinguial transfer learning from modern Japanese to classical Japanese in WakaGPT, and applied computational linguistics tools to analyze the morpheme origins in Japanese literature. I am currently using clustering method to analyze the change of [role language](https://en.wikipedia.org/wiki/Yakuwarigo) in Japanese anime from a computational socialinguistics perspective.
+**Multilingual NLP and Computational Linguistics (Japanese NLP)**: With Japanese as one of my majors, I connects my NLP knowledge with my Japanese linguistics and classical Japanese courses. I have applied multilinguial transfer learning from modern Japanese to classical Japanese in WakaGPT, and applied computational linguistics tools to analyze the morpheme origins in Japanese literature. I have used clustering method to analyze [role language](https://en.wikipedia.org/wiki/Yakuwarigo) in Japanese media (game and anime) from a computational socialinguistics perspective.
 
 ## Papers
 
@@ -108,7 +108,7 @@ Forrest Sheng Bao, Miaoran Li, Renyi Qu, Ge Luo, Erana Wan, Yujia Tang, Weisi Fa
 
   <div class="collapse" id="faithbench-abstract">
 
-  &emsp; Summarization is one of the most common tasks performed by large language models (LLMs), especially in applications like Retrieval-Augmented Generation (RAG). However, existing evaluations of hallucinations in LLM-generated summaries, and evaluations of hallucination detection models both suffer from a lack of diversity and recency in the LLM and LLM families considered. This paper introduces FaithBench, a summarization hallucination benchmark comprising challenging hallucinations made by 10 modern LLMs from 8 different families, with ground truth annotations by human experts. ``Challenging'' here means summaries on which popular, state-of-the-art hallucination detection models, including GPT-4o-as-a-judge, disagreed on. Our results show GPT-4o and GPT-3.5-Turbo produce the least hallucinations. However, even the best hallucination detection models have near 50\% accuracies on FaithBench, indicating lots of room for future improvement.
+  &emsp; Summarization is one of the most common tasks performed by large language models (LLMs), especially in applications like Retrieval-Augmented Generation (RAG). However, existing evaluations of hallucinations in LLM-generated summaries, and evaluations of hallucination detection models both suffer from a lack of diversity and recency in the LLM and LLM families considered. This paper introduces FaithBench, a summarization hallucination benchmark comprising challenging hallucinations made by 10 modern LLMs from 8 different families, with ground truth annotations by human experts. "Challenging" here means summaries on which popular, state-of-the-art hallucination detection models, including GPT-4o-as-a-judge, disagreed on. Our results show GPT-4o and GPT-3.5-Turbo produce the least hallucinations. However, even the best hallucination detection models have near 50\% accuracies on FaithBench, indicating lots of room for future improvement.
 
   </div>
 
@@ -136,7 +136,20 @@ Forrest Sheng Bao, Miaoran Li, Renyi Qu, Ge Luo, Erana Wan, Yujia Tang, Weisi Fa
 
   </div>
 
-3. **Optimizing Bike-Sharing Systems: A Machine Learning Approach to Predict Station Imbalances**
+3. **Cluster Analysis of Role Languages in Visual Novel Game *AIR***
+**Ruixuan Tu**
+*Final paper for ASIAN 358 (Japanese Sociolinguistics) @ UW--Madison, Fall 2024*
+<button class="btn btn-outline-primary btn-sm" type="button" data-bs-toggle="collapse" data-bs-target="#yakuwarigo-summary" aria-expanded="false" aria-controls="yakuwarigo-summary">Summary</button> [[PDF](https://direct.turx.asia/as358_paper.pdf)] [[Slide](https://direct.turx.asia/as358_slide.pdf)]
+
+  <div class="collapse" id="yakuwarigo-summary">
+
+  &emsp; Through our analysis of the visual novel game *AIR*, most keywords “特徴語” from our method could be recognized as“yakuwarigo” that represents characteristics of specific individuals or groups, but might not the reverse side (not all “yakuwarigo” are keywords that could be found). From our method, we have observed non-female language, casual female language, formal and polite female language, and dialectal language as clusters. We also found that different groups of script authors might affect extracted keywords.
+
+  **Method:** We apply agglomerative hierarchical clustering (Ward's method + euclidean distance) on word frequency vectors for every speaker, and then extract significant keywords by CoS (coefficient of specialization) >2.
+
+  </div>
+
+4. **Optimizing Bike-Sharing Systems: A Machine Learning Approach to Predict Station Imbalances**
 **Ruixuan Tu**, Larissa Xia, Steven Haworth, Jackson Wegner
 *1st Most Creative or Interesting Project and 2nd Best Visualizations for STAT 451 (Machine Learning) @ UW--Madison, Summer 2024*
 <button class="btn btn-outline-primary btn-sm" type="button" data-bs-toggle="collapse" data-bs-target="#divvy-summary" aria-expanded="false" aria-controls="divvy-summary">Summary</button> [[PDF](https://direct.turx.asia/stat451_paper.pdf)] [[Slide](https://direct.turx.asia/stat451_slide.pdf)]
