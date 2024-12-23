@@ -25,6 +25,7 @@ University of Wisconsin--Madison
 ruixuan@cs.wisc.edu
 
 [[GitHub](https://github.com/TURX)] [[Google Scholar](https://scholar.google.com/citations?user=V6hzHoQAAAAJ)] [[Resume](https://direct.turx.asia/resume.pdf)]
+[[Japanese Page (日本語)](https://turx.tokyo/acad)]
 
 </div>
 
@@ -138,7 +139,7 @@ Forrest Sheng Bao, Miaoran Li, Renyi Qu, Ge Luo, Erana Wan, Yujia Tang, Weisi Fa
 
 3. **Cluster Analysis of Role Languages in Visual Novel Game *AIR***
 **Ruixuan Tu**
-*Final paper for ASIAN 358 (Japanese Sociolinguistics) @ UW--Madison, Fall 2024*
+*A-mark final paper for ASIAN 358 (Japanese Sociolinguistics) @ UW--Madison, Fall 2024*
 <button class="btn btn-outline-primary btn-sm" type="button" data-bs-toggle="collapse" data-bs-target="#yakuwarigo-summary" aria-expanded="false" aria-controls="yakuwarigo-summary">Summary</button> [[PDF](https://direct.turx.asia/as358_paper.pdf)] [[Slide](https://direct.turx.asia/as358_slide.pdf)]
 
   <div class="collapse" id="yakuwarigo-summary">
@@ -183,9 +184,16 @@ Software Development Engineer Intern (May 2022 --- September 2022)
 - Maintainer of App Store Connect for release and troubleshooting
 - Contribution to Android and Linux versions (new conversation in Android SMS)
 
+## Memberships
+
+- Phi Beta Kappa (2024–--)
+- Association for Computational Linguistics (2024)
+
 ## Awards
 
-- Undergraduate Scholarship for Summer Study, UW--Madison, 2023 and 2024
+- Akira and Sharlie Miura Memorial Scholarship for Japanese and TESOL Studies Fund (2024) [[Announcement](https://alc.wisc.edu/undergraduate-studies/department-scholarships/)]
+- Golden Bricks Award for CS Dept Service (2023) [[Announcement](https://www.cs.wisc.edu/2023-cs-department-awards-and-thank-yous/\#GOLDEN\%20BRICK\%20AWARDS)]
+- Undergraduate Scholarship for Summer Study, UW--Madison (2023, 2024)
 - Silver Medal, 2021 ACM-ICPC NCNA Regional, Team THREE_PUPILS
 
 </div>

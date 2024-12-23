@@ -81,7 +81,7 @@ body.loaded #buttons {
 }
 
 #btn-github {
-	border-color: lightgray;
+	border-color: darkgray;
 }
 
 #btn-github:hover {

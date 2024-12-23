@@ -22,7 +22,7 @@ $("#btn-email-ja-portrait").click(mail_ja);
 const twitter = () => window.location = "https://twitter.com/_AruEkusu_";
 $("#btn-twitter").click(twitter);
 
-const acad = () => window.location = "https://turx.asia/acad";
+const acad = () => window.location = "acad/";
 $("#btn-acad").click(acad);
 $("#btn-acad-portrait").click(acad);
 
