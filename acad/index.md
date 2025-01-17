@@ -170,23 +170,24 @@ Software Development Engineer Intern (May 2022 --- September 2022)
 - Developer of NLP Backend: classical natural language processing task implementation in Python, API migration
 
 **UW--Madison**
-- Peer Mentor (Undergraduate TA) of [COMP SCI 540 (Intro-Artificial Intelligence)](https://pages.cs.wisc.edu/~jphanna/teaching/2023spring_cs540/teaching_team.html): Helping students to learn machine learning, math, game, and search by answering questions during office hours (September 2022 --- May 2024)
+- **Grader of [COMP SCI 577 Honors (Intro-Algorithms)](https://pages.cs.wisc.edu/~dieter/Courses/index.html)**: Grading assignments for Prof. Dieter van Melkebeek, including Divide-and-Conquer, Dynamic Programming, Greedy, Network Flow, and Computational Intractability topics (January 2025 –-- Present)
+- **Peer Mentor (Undergraduate TA) of [COMP SCI 540 (Intro-Artificial Intelligence)](https://pages.cs.wisc.edu/~jphanna/teaching/2023spring_cs540/teaching_team.html)**: Helping students to learn machine learning, math, game, and search by answering questions during office hours (September 2022 --- May 2024)
   - Received [Golden Bricks Award (2023)](https://www.cs.wisc.edu/2023-cs-department-awards-and-thank-yous/#GOLDEN%20BRICK%20AWARDS) for excellent service to CS Department
-- Tutor of Calculus @ University Housing: providing individual and group tutoring to residents taking math courses including multivariable calculus, linear algebra, and intro analysis (September 2022 --- Present)
+- **Tutor of Calculus of University Housing**: providing individual and group tutoring to residents taking math courses including multivariable calculus, linear algebra, and analysis (September 2022 --- Present)
 
 ## Projects
 
 **[KDE Connect](https://kdeconnect.kde.org/)** ([Apple Continuity](https://www.apple.com/macos/continuity/)-like Experience) (November 2018 --- Present)
 - Download latest stable release: [[App Store](https://apps.apple.com/us/app/kde-connect/id1580245991)] [[TestFlight](https://testflight.apple.com/join/vxCluwBF)]
-- Data: 284K normal App Store downloads, 10K active testers, and 1M impressions (as of April 2024)
-- Lead Developer of [macOS version](https://github.com/TURX/kdeconnect-mac) (new UI, device list, secure connection, plugin ports; [GSoC'22 proposal](https://direct.turx.asia/gsoc-proposal-220418.pdf))
+- Data: 406K normal App Store downloads, 10K active testers, and 1.6M impressions (as of January 2025)
+- Lead Developer of Lead Developer and Maintainer of Apple platforms (iOS and macOS) [[GitHub Repo](https://github.com/KDE/kdeconnect-ios)] [[GitLab Repo](https://invent.kde.org/network/kdeconnect-ios)]
 - Developer and Reviewer of [iOS version](https://github.com/KDE/kdeconnect-ios) (About view, background execution with location, trusted networks)
 - Maintainer of App Store Connect for release and troubleshooting
-- Contribution to Android and Linux versions (new conversation in Android SMS)
+- Contribution to Android and Linux versions
 
 ## Memberships
 
-- Phi Beta Kappa (2024–--)
+- Phi Beta Kappa (2024 ---)
 - Association for Computational Linguistics (2024)
 
 ## Awards
