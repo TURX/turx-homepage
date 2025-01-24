@@ -182,8 +182,7 @@ Software Development Engineer Intern (May 2022 --- September 2022)
 **[KDE Connect](https://kdeconnect.kde.org/)** ([Apple Continuity](https://www.apple.com/macos/continuity/)-like Experience) (November 2018 --- Present)
 - Download latest stable release: [[App Store](https://apps.apple.com/us/app/kde-connect/id1580245991)] [[TestFlight](https://testflight.apple.com/join/vxCluwBF)]
 - Data: 406K normal App Store downloads, 10K active testers, and 1.6M impressions (as of January 2025)
-- Lead Developer of Lead Developer and Maintainer of Apple platforms (iOS and macOS) [[GitHub Repo](https://github.com/KDE/kdeconnect-ios)] [[GitLab Repo](https://invent.kde.org/network/kdeconnect-ios)]
-- Developer and Reviewer of [iOS version](https://github.com/KDE/kdeconnect-ios) (About view, background execution with location, trusted networks)
+- Lead Developer and Maintainer of Apple platforms (iOS and macOS) [[GitHub Repo](https://github.com/KDE/kdeconnect-ios)] [[GitLab Repo](https://invent.kde.org/network/kdeconnect-ios)]
 - Maintainer of App Store Connect for release and troubleshooting
 - Contribution to Android and Linux versions
 
